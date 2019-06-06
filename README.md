@@ -1,22 +1,32 @@
 # Set
-Sets are a simple, nifty little data structure, reference data type.
 
----
-## Methods
-* Set.prototype.add()
-* Set.prototype.clear()
-* Set.prototype.delete()
-* Set.prototype.entries()
-* Set.prototype.forEach()
-* Set.prototype.has()
-* Set.prototype.values()
-* Set.prototype[@@iterator]()
 
----
-## Remove-Array-Duplicates-in-ES6
+### What is a Set?
+Many data structures we’ve covered are lists, or collections of ordered values (e.g., arrays).
+*Sets * are like similar to arrays, with one important difference: Sets hold unique sequences of values (i.e., a value cannot occur twice in a set).
 
-![ES6](ES6.png "Remove Array Duplicates in ES6")
----
+### Why Sets?
+Sets have a number of useful properties.
+* Sets are great for storing unique collections of items, for example
+* Unique usernames in a database.
+* A unique list of tags on all of your blog posts
+* Customer names.
+* Sets can store a wide range of data type(eg.,number, booleans, strings)
+* A set won't allow you to add a value that's already present.
+* Passing an arry though a set object will automatically remove any duplicates in the array.
+
+ <a href="https://git.generalassemb.ly/software-engineering-immersive/SEI-Course-Materials/blob/master/6_computer-science-materials/data-structures/sets/exercises/Set.js" target="_blank">In-Class Exercise: Implementing a Set</a>
+
+
+## JavaScript
+
+
+# Using set
+Set is a new data object introduced in ES6. Because Set only lets you store unique values. When you pass in an array, it will remove any duplicate values.
+### Remove-Array-Duplicates-in-ES6
+
+![ES6](using-set.png "using set Remove Array Duplicates in ES6")
+
 
 ### Step 1 
 * We are creating a new Set.
@@ -40,19 +50,7 @@ console.log([...bSet]);
 //[1,2,5,8]
 
 ```
-### Other convert Set to an Array using Array.from
-* Array.from();
 
-```
-Array.from(bSet);
-//[1,2,5,8]
-
-or
-
-Array.from(new Set(a));
-//[1,2,5,8]
-
-```
 
 
 ---
@@ -134,4 +132,4 @@ console.log(set2);
 2. <a href="https://dzone.com/articles/hashset-vs-treeset-vs" target="_blank">HashSet vs. TreeSet vs. LinkedHashSet</a>
 3. <a href="https://www.geeksforgeeks.org/sets-in-javascript/" target="_blank">Sets in JavaScript</a>
 4. <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set" target="_blank">Set MDN</a>
-5. <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Sett" target="_blank">Set (abstract data type</a>
+5. <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Sett" target="_blank">Set (abstract data type)</a>
