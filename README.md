@@ -128,8 +128,9 @@ console.log(set2);
 
 
 ## Additional Resources
-1. <a href="https://www.samanthaming.com/tidbits/43-3-ways-to-remove-array-duplicates" target="_blank">How to Remove Array Duplicates in ES6</a>
-2. <a href="https://dzone.com/articles/hashset-vs-treeset-vs" target="_blank">HashSet vs. TreeSet vs. LinkedHashSet</a>
-3. <a href="https://www.geeksforgeeks.org/sets-in-javascript/" target="_blank">Sets in JavaScript</a>
-4. <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set" target="_blank">Set MDN</a>
-5. <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Sett" target="_blank">Set (abstract data type)</a>
+1. <a href="https://github.com/kanjamad/Set-data-structure/blob/master/sets.pdf">GA's Sets study guide</a>
+2. <a href="https://www.samanthaming.com/tidbits/43-3-ways-to-remove-array-duplicates" target="_blank">How to Remove Array Duplicates in ES6</a>
+3. <a href="https://dzone.com/articles/hashset-vs-treeset-vs" target="_blank">HashSet vs. TreeSet vs. LinkedHashSet</a>
+4. <a href="https://www.geeksforgeeks.org/sets-in-javascript/" target="_blank">Sets in JavaScript</a>
+5. <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set" target="_blank">Set MDN</a>
+6. <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Sett" target="_blank">Set (abstract data type)</a>
